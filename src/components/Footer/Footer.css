@@ -1,0 +1,54 @@
+.footer {
+    background-color: #57545498;
+    color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  .footer-link {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-link li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-link a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .social a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.5em;
+  }
+  
+  .social a:hover {
+    color: #091822b2; /* You can customize hover colors for each social media */
+  }
+@media (max-width: 600px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer ul li{
+        margin: 10px;
+    }
+    .footer ul{
+        margin-top: 10px;
+    }
+    .social{
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,26 @@
+.learn{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.C-offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.C-offer img{
+    width: 24%;
+    border-radius: 10PX;
+
+}
+
+@media (max-width: 800px){
+    .C-offer{
+        flex-wrap: wrap;
+    }
+    .C-offer img{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}

@@ -1,0 +1,32 @@
+.blog{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 /6%);
+}
+.blog-left{
+    flex-basis: 40%;
+}
+.blog-right{
+    flex-basis: 56%;
+}
+.blog-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px){
+    .blog{
+        flex-direction: column;
+    }
+    .blog-left{
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+    .blog-right{
+        flex-basis: 100%;
+    }
+}

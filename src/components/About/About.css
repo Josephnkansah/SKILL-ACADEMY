@@ -1,0 +1,52 @@
+.abouts{
+    margin: 80px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about img{
+    width: 100%;
+    border-radius: 2s0px;
+    display: block;
+}
+.about{
+    flex-basis: 30%;
+    position: relative;
+}
+.icon{
+    border-radius: 10px;
+    position: absolute;
+    background: rgba(0, 8, 80, 0.3);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 90%;
+    transition: 0.3;
+}
+.icon img{
+    width: 65px;
+    margin-bottom: 10px;
+}
+.about:hover .icon{
+    opacity: 1;
+    padding-top: 0;
+}
+
+@media (max-width: 650px){
+    .abouts{
+        flex-direction: column;
+    }
+    .about{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+ }

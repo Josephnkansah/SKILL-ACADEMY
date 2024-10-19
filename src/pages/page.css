@@ -1,0 +1,233 @@
+.course{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(87, 86, 90, 0.7),rgba(105, 105, 112, 0.7)), url('../images/pexels-renan-almeida-3218109-19302811.jpg');
+    background-size: contain;
+    background-position: center;
+    color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.course-text{
+    text-align: center;
+    max-width: 1050px;
+    font-size: 30px;
+}
+.Done{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(87, 86, 90, 0.7),rgba(105, 105, 112, 0.7)), url('../images/pexels-rdne-7713371.jpg');
+    background-size: cover;
+    background-position: 150%;
+    color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Done-T{
+    text-align: center;
+    max-width: 900px;
+    font-size: xx-large;
+}
+section{
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  section .header{
+    padding: 109px  20px 60px 50px;
+    text-align: center;
+    padding-bottom: 70px;
+  }
+  
+  .header h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .header h2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #2a917b98;
+    margin: auto;
+  }
+  
+  .header p{
+    margin-bottom: 0;
+    color: #272525;
+  }
+  .containers{
+    max-width: 1300px;
+    box-shadow: 0px 2px 25px rgba(4, 201, 70, 0.644);
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    transition: 0.4s all ease-in-out;
+  }
+  
+  .info_container{
+    padding: 20px;
+    max-width: 35%;
+    width: 100%;
+    background: #015a5a;
+    border-radius: 10px 0 0 10px;
+    color: #fff;
+  }
+  
+  .info_container .info_item{
+    padding: 20px;
+    background: #009282;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .info_container .info_item:last-child{
+    margin: 0;
+  }
+  
+  .info_item .icon{
+    float: left;
+    clear: left;
+    margin-right: 15px;
+    height: 75px;
+  }
+  
+  .icon i{
+    font-size: 20px;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .info_item:hover i{
+    background: #fff;
+    color: #30c45cbe;
+  }
+  
+  .information h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .information p{
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  
+  .input_container{
+    max-width: 65%;
+    width: 100%;
+    padding: 30px;
+  }
+  
+  form .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  form .form_control{
+    border: 1px solid #6890b8;
+    outline: none;
+    font-size: 14px;
+    padding: 12px 15px;
+    color: #25292c;
+    width: 100%;
+    margin-bottom: 25px;
+    transition: 0.3s;
+    line-height: 1.5;
+  }
+  
+  .form_control:focus{
+    border-color: #33009263;
+  }
+  
+  textarea{
+    resize: none;
+    font-family: sans-serif;
+  }
+  
+  .btn{
+    width: 100%;
+    text-align: center;
+  }
+  
+  .btn button{
+    background: #0a8d7ec4;
+    border: 0;
+    padding: 16px 45px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 400;
+    transition: 0.4s;
+  }
+  
+  .btn button:hover{
+    background: #04554b;
+  }
+
+
+
+
+  @media (max-width: 850px){
+    .course-text h1{
+        font-size: 41px;
+    }
+    .course-text h2{
+      font-size: 39px;
+  }
+}
+@media (max-width: 650px){
+    .course-text h1{
+        font-size: 33px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .course-text h2{
+      font-size: 29px;
+      max-width: 400px;
+      margin: auto;
+  }
+}
+
+@media (max-width: 850px){
+  .Done-T h1{
+      font-size: 41px;
+  }
+  .Done-T h2{
+    font-size: 39px;
+}
+}
+@media (max-width: 650px){
+  .Done-T h1{
+      font-size: 33px;
+      max-width: 400px;
+      margin: auto;
+  }
+  .Done-T h2{
+    font-size: 29px;
+    max-width: 400px;
+    margin: auto;
+}
+}
