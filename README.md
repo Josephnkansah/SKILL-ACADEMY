@@ -1,4 +1,4 @@
-SKILL ACADEMY
+## SKILL ACADEMY
 
 
 https://skillacademy.netlify.app/
@@ -8,7 +8,7 @@ https://docs.google.com/presentation/d/1MWFjR6_CzMolDW0mB5Wt7O6nfPsIOg9mw8ALvg8S
 
 https://youtu.be/5DnqgvSDbE0
 
-# Technologies Used
+## Technologies Used
 
  **React**: Frontend framework for building the user interface.
  **HTML5 & CSS3**: Structure and styling of the web pages.
