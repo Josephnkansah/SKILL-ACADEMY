@@ -15,16 +15,16 @@ const Footer = () => {
     </div>
     
     <div className="social">
-         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+         <a href="https://www.facebook.com/share/Z8GqSauz4JMquVDu/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faFacebook} />
          </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/Josephnkansah" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faTwitter} />
       </a>
-       <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+       <a href="https://www.instagram.com/youngma_90/profilecard/?igsh=M2p2bnQxOWtteWIx" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faInstagram} />
       </a>
-       <a href="mailto:support@skillacademy.com">
+       <a href="mailto:jnkansahoseph@gmail.com">
         <FontAwesomeIcon icon={faEnvelope} />
          </a>
      </div>
