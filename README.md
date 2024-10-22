@@ -1,7 +1,7 @@
 ## SKILL ACADEMY
 ![SKILL ACADEMY - Google Slides - Google Chrome 10_3_2024 12_24_43 PM](https://github.com/user-attachments/assets/8f45a9fc-4852-4eda-a8a7-163825b338b2)
 
-##https://skillacademy.netlify.app/
+## https://skillacademy.netlify.app/
 
 
 https://docs.google.com/presentation/d/1MWFjR6_CzMolDW0mB5Wt7O6nfPsIOg9mw8ALvg8Sy6w/edit?usp=sharing
