@@ -31,6 +31,7 @@ const Navbar = () => {
             Courses
             </Link>
             </li>
+          <li>
           <Link to='/Sign'>
             Login
             </Link>
