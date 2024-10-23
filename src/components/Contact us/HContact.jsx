@@ -6,6 +6,7 @@ import mail from '../../images/mail.png'
 import phone from '../../images/phone.png'
 const HContact = () => {
 
+    // These are the Function to handle the form submission
   const [result, setResult] = React.useState("");
 
   const onSubmit = async (event) => {
@@ -14,12 +15,13 @@ const HContact = () => {
     const formData = new FormData(event.target);
 
     formData.append("access_key", "8b2ee287-7d43-4ee0-a034-17982b192aa3");
-
+    
+// To Send form data to the Web3Forms API
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData
     });
-
+   // Check or see it if the submission was successful Done 
     const data = await response.json();
 
     if (data.success) {
