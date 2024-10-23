@@ -14,7 +14,7 @@ const Footer = () => {
         
       </ul>
     </div>
-    
+    {/* Social Media Links Needed Section */}
     <div className="social">
              <a href="mailto:jnkansahoseph@gmail.com">
         <FontAwesomeIcon icon={faEnvelope} />
