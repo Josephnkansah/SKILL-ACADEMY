@@ -1,0 +1,82 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(149, 155, 163);
+}
+.container-l{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.container-form{
+    background-color: rgba(235, 218, 218, 0.815);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(27, 24, 24, 0.89);
+    width: 300px;
+}
+.form-start{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+}
+.form-start button{
+    width: 50%;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px 20px 10px 10px;
+}
+
+.form-start .active{
+    background-color: rgb(90, 99, 116);
+    color: antiquewhite;
+}
+.form-1{
+    display: flex;
+    flex-direction: column;
+}
+.form-1 h1{
+    margin-bottom: 20px;
+}
+.form-1 input{
+    padding: 11px;
+    margin-bottom: 11px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+.form-1 button{
+    padding: 10px;
+    background-color: rgba(96, 150, 150, 0.568);
+    color: rgb(16, 17, 17);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.form-1 button a:hover {
+    color: #091822b2; 
+  }
+.form-1 a{
+    color: blue;
+    text-decoration: none;
+    margin: 11px;
+    text-align: right;
+}
+.form-1 p{
+    text-align: center;
+}
+.social a {
+    margin: 0 10px;
+    color: #4b4c52;
+    font-size: 1.5em;
+  }
+  
+  .social a:hover {
+    color: #4b7fa1b2; 
+  }
