@@ -18,11 +18,11 @@ const Login = () => {
                 <h1>LOGIN FROM</h1>
                 <input type="email" placeholder='Email /username' />
                 <input type="password" placeholder='Password' />
-                <a href='#'>Forgot Password?</a>
+                <a href='/Sign'>Forgot Password?</a>
                 
                 <button>Login</button>
 
-                <p>Don't have Account? <a href='#' onClick={() => setInLogin(false)}>Register Now</a></p>
+                <p>Don't have Account? <a href='/Sign' onClick={() => setInLogin(false)}>Register Now</a></p>
 
                 <div className="social">
          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
