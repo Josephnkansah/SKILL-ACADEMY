@@ -31,6 +31,10 @@ const Navbar = () => {
             Courses
             </Link>
             </li>
+          <Link to='/Sign'>
+            Login
+            </Link>
+            </li>
           <li>
           <Link to='/Contact'>
             <button className='btn' >Contact</button>
