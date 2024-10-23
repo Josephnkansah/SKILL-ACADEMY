@@ -1,5 +1,6 @@
 ## SKILL ACADEMY
-![SKILL ACADEMY - Google Slides - Google Chrome 10_3_2024 12_24_43 PM](https://github.com/user-attachments/assets/8f45a9fc-4852-4eda-a8a7-163825b338b2)
+![SKILL ACADEMY - Google Chrome 10_23_2024 6_42_17 AM](https://github.com/user-attachments/assets/94bc2a97-43aa-4e1a-9787-8c3a069cb430)
+
 
 ## https://skillacademy.netlify.app/
 
@@ -15,10 +16,11 @@
  **JavaScript (ES6+)**: Core logic and interaction handling.
  **Netlify**: For deploying and hosting the website.
  **FontAwesome**: For icons used across the website.
-![SKILL ACADEMY - Google Chrome 10_20_2024 12_11_22 AM](https://github.com/user-attachments/assets/10369036-b4ee-4bed-94e1-5e4df41aec5e)
-
-![SKILL ACADEMY - Google Chrome 10_20_2024 12_11_41 AM](https://github.com/user-attachments/assets/629a7e7d-b749-43ec-94e0-93304706765f)
+![SKILL ACADEMY - Google Chrome 10_23_2024 6_42_27 AM](https://github.com/user-attachments/assets/33d0aa94-cb60-46c3-a8f5-e66bc0d6a69e)
 
 
 
-![SKILL ACADEMY - Google Chrome 10_20_2024 12_12_07 AM](https://github.com/user-attachments/assets/976f6328-c2a5-40a7-85b9-63900a38e76e)
+![SKILL ACADEMY - Google Chrome 10_23_2024 6_42_32 AM](https://github.com/user-attachments/assets/d3ddeb96-f8fb-43f7-a251-2f1190be4dab)
+
+
+![SKILL ACADEMY - Google Chrome 10_23_2024 6_42_39 AM](https://github.com/user-attachments/assets/471149bb-f4b6-4101-95b5-23d73395e0c0)
