@@ -4,6 +4,7 @@ import App from './App';
 import './index.css'
 import Contact from './pages/Contact';
 import Course from './pages/Course'
+import Sign from './pages/Sign';
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 
 const router = createBrowserRouter([
