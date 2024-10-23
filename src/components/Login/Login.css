@@ -3,7 +3,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: rgb(149, 155, 163);
+    background-color: rgb(255, 255, 255);
 }
 .container-l{
     display: flex;
